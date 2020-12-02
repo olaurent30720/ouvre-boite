@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color:#E5D3CF
+}
+form{
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:start;
+}
+.nbdesfaces{
+    width:50vw;
+    margin-bottom:3vh;
+    margin-top:3vh;
+    text-align:center;
+}
+#choixNombreDes{
+    width:20%;
+    margin-bottom:20vw;
+    text-align:center;
+}
+#choixFaceDes{
+    width:20%;
+    margin-bottom:20vw;
+}
+.un{
+    text-align:center;
+    margin:20px auto;
+     border-radius:10px;
+     background-color:#D16B55
+}
+button{
+    width:30%;
+}
+.re{
+    text-align:center;
+}
+
+@media (max-width: 768px){
+    .un{
+        font-size:2rem;     
+        width: 70%;   
+    }
+}
+
+@media (min-width: 768px){
+    .un{
+        font-size:3rem;  
+        width: 50%;      
+    }
+    #choixNombreDes{
+        width:20%;
+        margin-bottom:10vw;
+        text-align:center;
+    }
+    button{
+        width:20%;
+    }
+    .nbdesfaces{
+        width:50vw;
+        margin-bottom:3vh;
+        margin-top:0vh
+    }
+    #choixFaceDes{
+        width:20%;
+        margin-bottom:10vw;
+    }
+}

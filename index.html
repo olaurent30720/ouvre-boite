@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanceur de des</title>
+    <link rel="stylesheet" href="ouvreboite.css">
+</head>
+<body>
+
+    <h1 class="un">Lanceur de dés</h1>
+    <form method='post' action='resultats.php'>
+
+        <label for="choixNombreDes" class="nbdesfaces">Choisir le nombre de dé(s)</label>
+
+        <select name="choixNombreDes" id="choixNombreDes">
+            <option value="1">1 dé</option>
+            <option value="2">2 dés</option>
+            <option value="3">3 dés</option>
+            <option value="4">4 dés</option>
+        </select>
+
+        <label for="choixFaceDes" class="nbdesfaces">Choisir le nombre de face(s)</label>
+
+        <select name="choixFaceDes" id="choixFaceDes">
+            <option value="4">4 faces</option>
+            <option value="6">6 faces</option>
+            <option value="8">8 faces</option>
+            <option value="10">10 faces</option>
+            <option value="10">20 faces</option>
+        </select>
+
+        <button id="buttonValider">Valider</button>
+    </form>
+
+</body>
+</html>
